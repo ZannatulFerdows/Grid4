@@ -1,0 +1,86 @@
+
+  
+  #grid1{ 
+  grid-area:grid1; 
+  background-color: aqua;
+  border: 2px solid black;
+  
+  }
+  
+  #grid2{
+      grid-area:grid2;
+  background-color: aquamarine;
+  border: 2px solid black;
+  }
+  #grid3{
+      grid-area: grid3;
+      background-color: bisque;
+      border: 2px solid black;
+  }
+  #grid4{
+      grid-area: grid4;
+      background-color: blueviolet;
+      border: 2px solid black;  
+  }
+  #grid5{
+      grid-area: grid5;
+      background-color: blue;
+      border: 2px solid black;
+  }
+  #grid6{ 
+    grid-area:grid6; 
+    background-color: rgb(72, 92, 117);
+    border: 2px solid black;
+    
+    }
+    
+    #grid7{
+        grid-area:grid7;
+    background-color: rgb(255, 127, 227);
+    border: 2px solid black;
+    }
+    #grid8{
+        grid-area: grid8;
+        background-color: rgb(90, 53, 8);
+        border: 2px solid black;
+    }
+    #grid9{
+        grid-area: grid9;
+        background-color: rgb(40, 9, 70);
+        border: 2px solid black;  
+    }
+    #grid10{
+        grid-area: grid10;
+        background-color: rgb(0, 255, 106);
+        border: 2px solid black;
+    }
+    #grid11{
+        grid-area:grid11;
+    background-color: rgb(255, 127, 159);
+    border: 2px solid black;
+    }
+    #grid12{
+        grid-area: grid12;
+        background-color: rgb(223, 194, 29);
+        border: 2px solid black;
+    }
+    #grid13{
+        grid-area: grid13;
+        background-color: rgb(140, 81, 199);
+        border: 2px solid black;  
+    }
+    #grid14{
+        grid-area: grid14;
+        background-color: rgb(118, 175, 221);
+        border: 2px solid black;
+    }
+    .grid-container{
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr 1fr;  
+        grid-template-rows:.3fr .3fr .3fr .3fr .3fr ;
+        grid-template-areas: "grid1 grid1 grid2 grid3" "grid4 grid5 grid6 grid7" "grid8 grid8 grid9 grid10" "grid8 grid8 grid11 grid12" "grid13 grid13 grid13 grid14";
+        
+        height: 100vh;
+        
+        text-align: center;
+       }
